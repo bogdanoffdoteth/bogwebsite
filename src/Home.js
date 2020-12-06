@@ -14,13 +14,13 @@ class Home extends Component{
           <div id="contact-icon-div">
             <div className="contact-icon-l">
 
-              <a href="https://discord.gg/6nTkyR5" target="_blank"><span id="btn-discord" className="inline-block-display contact-icon"></span></a>
-              <a href="https://t.me/bogtoken" target="_blank"><span id="btn-telegram" className="inline-block-display contact-icon"></span></a>
-              <a href="https://bogdanoffeth.medium.com/" target="_blank"><span id="btn-medium" className="inline-block-display contact-icon"></span></a>
-              <a href="https://twitter.com/BogdanoffEth" target="_blank"><span id="btn-twitter" className=" inline-block-display contact-icon"></span></a>
+              <a href="https://discord.gg/6nTkyR5" target="_blank" rel="noreferrer"><span id="btn-discord" className="inline-block-display contact-icon"></span></a>
+              <a href="https://t.me/bogtoken" target="_blank" rel="noreferrer"><span id="btn-telegram" className="inline-block-display contact-icon"></span></a>
+              <a href="https://bogdanoffeth.medium.com/" target="_blank" rel="noreferrer"><span id="btn-medium" className="inline-block-display contact-icon"></span></a>
+              <a href="https://twitter.com/BogdanoffEth" target="_blank" rel="noreferrer"><span id="btn-twitter" className=" inline-block-display contact-icon"></span></a>
               <span style={{width:"5px", height:"45px", borderRight:"white solid 1px"}} className=" inline-block-display"></span>
               <span style={{width:"5px", height:"45px", borderLeft:"white solid 1px"}} className=" inline-block-display"></span>
-              <a href="" target="_blank"><span id="btn-uniswap" className=" inline-block-display contact-icon"></span></a>
+              <a disabled target="_blank" rel="noreferrer"><span id="btn-uniswap" className=" inline-block-display contact-icon"></span></a>
 
             </div>
 

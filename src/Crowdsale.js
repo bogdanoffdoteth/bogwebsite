@@ -3,7 +3,6 @@ import CountdownClock from "./CountdownClock";
 import ProgressBar from "./ProgressBar";
 import CrowdsaleIntro from "./CrowdsaleIntro";
 import BuyTokenModal from "./BuyTokenModal";
-import Web3 from "web3";
 import BogLogo from "./assets/boglogo.png";
 
 class Crowdsale extends Component{
@@ -32,7 +31,7 @@ class Crowdsale extends Component{
               </div>
               <div className="col-md-6">
                 <div className="v-center flex-h full-w">
-                  <img src={BogLogo} style={{width:"80%"}}/>
+                  <img src={BogLogo} alt="BOG logo" style={{width:"80%"}}/>
                 </div>
               </div>
             </div>

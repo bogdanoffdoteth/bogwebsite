@@ -1,19 +1,17 @@
 import React, {Component} from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCopy } from '@fortawesome/free-solid-svg-icons';
 import "./fontawesome.scss";
 
 class BuyTokenForm extends Component{
 
   convertBOGToETH(val,rate){
-    if(Number(val)===NaN){
+    if(isNaN(val)){
       return val;
     };
     return Number(val)/rate;
   };
 
   convertETHToBOG(val,rate){
-    if(Number(val)===NaN){
+    if(isNaN(val)){
       return val;
     };
     return Number(val)*rate;

@@ -5,7 +5,7 @@ class TeamDiv extends Component{
   render(){
     return(
       <div className="col-md-4" align="center">
-        <img className="team-member-img" src={this.props.img}></img>
+        <img className="team-member-img" src={this.props.img} alt="Team Member Profile"></img>
         <h3>{this.props.name}</h3>
         <p>{this.props.role}</p>
       </div>

@@ -36,9 +36,13 @@ class Roadmap extends Component{
           <h1>Roadmap</h1>
         </div>
           <div className="roadmap">
+            <div id="roadmap-start" className="roadmap-left">
+            </div>
             {RoadmapList.map((item)=>(
               <RoadmapEvent title={item.title} time={item.time} content={item.content} dir={item.dir}/>
             ))}
+            <div id="roadmap-end" className="roadmap-left">
+            </div>
           </div>
       </div>
     </div>
