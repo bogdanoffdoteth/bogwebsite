@@ -9,8 +9,8 @@ class CrowdsaleIntro extends Component{
     }
   }
   render(){
+    console.log(this.props.status)
     let statusTextStyle = {color: this.props.status ? "lightgreen" : "lightred"};
-
     return(
       <div>
         <h1 id= "titleText" className="glitch text-white" data-text="$BOG Crowdsale">$BOG Crowdsale</h1>

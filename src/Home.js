@@ -20,8 +20,7 @@ class Home extends Component{
               <a href="https://twitter.com/BogdanoffEth" target="_blank" rel="noreferrer"><span id="btn-twitter" className=" inline-block-display contact-icon"></span></a>
               <span style={{width:"5px", height:"45px", borderRight:"white solid 1px"}} className=" inline-block-display"></span>
               <span style={{width:"5px", height:"45px", borderLeft:"white solid 1px"}} className=" inline-block-display"></span>
-              <span id="btn-uniswap" className=" inline-block-display contact-icon"></span>
-
+              <a href="assets/boglogo.png" download><span id="btn-uniswap" className=" inline-block-display contact-icon"></span></a>
             </div>
 
           </div>

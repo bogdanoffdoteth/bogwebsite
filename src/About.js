@@ -15,7 +15,7 @@ class About extends Component{
             <li>Please download our whitepaper for more information on $BOG:</li>
             <br/>
             <div className="center-align">
-              <button id="download-whitepaper-button-home" className="center-align btn btn-purple btn-lg"><i class="fas fa-download mr-1" aria-hidden="true"></i>Whitepaper</button>
+              <a href="/bogdanoff.finance whitepaper (Official Release V1).pdf" download="$BOG Whitepaper" id="download-whitepaper-button-home" className="center-align btn btn-purple btn-lg"><i class="fas fa-download mr-1" aria-hidden="true"></i>Whitepaper</a>
             </div>
           </ul>
         </div>
