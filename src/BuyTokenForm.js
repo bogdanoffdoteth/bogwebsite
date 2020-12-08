@@ -78,15 +78,22 @@ class BuyTokenForm extends Component{
   render(){
 
     return(
-      <div id="buyTokenForm">
-        <div class="md-form md-outline input-with-post-icon" style={{marginBottom:"0.5rem"}}>
-          <i className="input-prefix fa-2x fab fa-ethereum rm-text-shadow"></i>
-          <input placeholder="Amt to purchase" type="number" id="buyTokenTextInput" className="form-control form-control-lg" aria-describedby="helpMsg" onChange={e=> {this.updateTextInputInner(e);this.validation(e)}}/>
-        </div>
-        <h5 className="bold left-align rm-text-shadow">= <span id="amtInETH">0</span> BOG</h5>
-        <p id="warningMsg" className="bold left-align rm-text-shadow text-info">Min/Max: 0.1 ETH/10 ETH</p>
+      <div>
+        <div style={this.maxContribution() < this.props.minETH?{display:"none"} : {}} id="buyTokenForm">
+          <div class="md-form md-outline input-with-post-icon" style={{marginBottom:"0.5rem"}}>
+            <i className="input-prefix fa-2x fab fa-ethereum rm-text-shadow"></i>
+            <input placeholder="Amt to purchase" type="number" id="buyTokenTextInput" className="form-control form-control-lg" aria-describedby="helpMsg" onChange={e=> {this.updateTextInputInner(e);this.validation(e)}}/>
+          </div>
+          <h5 className="bold left-align rm-text-shadow">= <span id="amtInETH">0</span> BOG</h5>
+          <p id="warningMsg" className="bold left-align rm-text-shadow text-info">Min/Max: 0.1 ETH/10 ETH</p>
 
-        <input className="slider" type="range" id="buyTokenRangeInput" step="0.001" min={this.props.minETH} max={this.maxContribution()} onChange={e=> {this.updateTextInput(e);this.updateTextInputInner(e);this.validation(e)}}/>
+          <input className="slider" type="range" id="buyTokenRangeInput" step="0.001" min={this.props.minETH} max={this.maxContribution()} onChange={e=> {this.updateTextInput(e);this.updateTextInputInner(e);this.validation(e)}}/>
+        </div>
+        <div style={!(this.maxContribution() < this.props.minETH)?{display:"none"} : {}}>
+          <h5 style={{marginBottom:0}} className="bold rm-text-shadow text-danger">INELIGIBLE FOR FURTHER PURCHASE</h5>
+          <p className="bold rm-text-shadow text-danger">(MAX 10 ETH/pax)</p>
+        </div>
+
       </div>
     );
   };

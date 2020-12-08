@@ -83,13 +83,12 @@ class BuyTokenModal extends Component{
     from: this.state.userAddress,
     to: BOGCROWDSALEADDRESS,
     value: window.web3.utils.toWei(ethVal, "ether"),
-    gas:180000
+    gas:210000
 }, function(err, transactionHash) {
     if (err) {
         console.log(err);
     } else {
         console.log(transactionHash);
-        window.location.reload();
     }
 });
   }
