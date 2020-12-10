@@ -482,7 +482,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .faq-card{
   background: rgba(108, 122, 137, 0.6);
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .faq-card-body{
