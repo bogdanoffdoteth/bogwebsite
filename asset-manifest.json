@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/bogwebsite/static/css/main.d952ab30.chunk.css",
+    "main.js": "/bogwebsite/static/js/main.216f28da.chunk.js",
+    "main.js.map": "/bogwebsite/static/js/main.216f28da.chunk.js.map",
+    "runtime-main.js": "/bogwebsite/static/js/runtime-main.82dcb200.js",
+    "runtime-main.js.map": "/bogwebsite/static/js/runtime-main.82dcb200.js.map",
+    "static/css/2.6fd9f7d3.chunk.css": "/bogwebsite/static/css/2.6fd9f7d3.chunk.css",
+    "static/js/2.a4538271.chunk.js": "/bogwebsite/static/js/2.a4538271.chunk.js",
+    "static/js/2.a4538271.chunk.js.map": "/bogwebsite/static/js/2.a4538271.chunk.js.map",
+    "static/js/3.b19c4695.chunk.js": "/bogwebsite/static/js/3.b19c4695.chunk.js",
+    "static/js/3.b19c4695.chunk.js.map": "/bogwebsite/static/js/3.b19c4695.chunk.js.map",
+    "index.html": "/bogwebsite/index.html",
+    "static/css/2.6fd9f7d3.chunk.css.map": "/bogwebsite/static/css/2.6fd9f7d3.chunk.css.map",
+    "static/css/main.d952ab30.chunk.css.map": "/bogwebsite/static/css/main.d952ab30.chunk.css.map",
+    "static/js/2.a4538271.chunk.js.LICENSE.txt": "/bogwebsite/static/js/2.a4538271.chunk.js.LICENSE.txt",
+    "static/media/Bogdanoff.eth_DP.f4381c27.png": "/bogwebsite/static/media/Bogdanoff.eth_DP.f4381c27.png",
+    "static/media/Cream.eth_DP.6edfe7b1.png": "/bogwebsite/static/media/Cream.eth_DP.6edfe7b1.png",
+    "static/media/Tormented_Squidward_DP.52dccf53.png": "/bogwebsite/static/media/Tormented_Squidward_DP.52dccf53.png",
+    "static/media/mdb.css": "/bogwebsite/static/media/arrow_right.0897f985.svg",
+    "static/media/boglogo.f58abfd9.png": "/bogwebsite/static/media/boglogo.f58abfd9.png",
+    "static/media/App.css": "/bogwebsite/static/media/uniswap-logo.e5643f56.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82dcb200.js",
+    "static/css/2.6fd9f7d3.chunk.css",
+    "static/js/2.a4538271.chunk.js",
+    "static/css/main.d952ab30.chunk.css",
+    "static/js/main.216f28da.chunk.js"
+  ]
+}
