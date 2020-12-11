@@ -11,7 +11,7 @@ class WeeklyBounty extends Component{
           <br/>
           <br/>
           <div className="weekly-bounty-container">
-            <p style={{fontSize:"1.2rem"}} className="">placeholder text</p>
+            <p style={{fontSize:"1.2rem"}} className="">placeholder text (for now)</p>
           </div>
         </div>
     );

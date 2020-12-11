@@ -376,6 +376,7 @@ input[type=range]:focus::-ms-fill-upper {
   border:5px dashed white;
 }
 
+
 .roadmap {
   position: relative;
   max-width: 100%;
