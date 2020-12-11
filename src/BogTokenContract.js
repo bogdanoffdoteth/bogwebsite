@@ -1,7 +1,13 @@
-const BOGTOKENADDRESS='0x1c774a6dD9Df339bA294A861b3708f2c4f61E23E';
-const BOGTOKENABI=[
+const BOGTOKENADDRESS='0x0ED12190E00590efD6c6F0E5ED9eC125A8D20a5e';
+const BOGTOKENABI= [
 	{
-		"inputs": [],
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_bogdavault",
+				"type": "address"
+			}
+		],
 		"stateMutability": "nonpayable",
 		"type": "constructor"
 	},

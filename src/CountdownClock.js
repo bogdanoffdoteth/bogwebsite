@@ -9,6 +9,7 @@ class CountdownClock extends Component{
 
   componentDidMount(){
     this.updateClock();
+    console.log(this.props.deadline);
   }
 
   componentDidUpdate(prevProps) {

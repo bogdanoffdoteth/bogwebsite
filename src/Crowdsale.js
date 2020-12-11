@@ -8,7 +8,6 @@ import {BOGCROWDSALEABI, BOGCROWDSALEADDRESS} from "./BogCrowdsaleContract.js";
 import web3 from "./Web3.js";
 
 
-
 class Crowdsale extends Component{
   constructor(props){
     super(props);
@@ -74,7 +73,7 @@ class Crowdsale extends Component{
                 <div className="v-center flex-h full-w">
                   <CrowdsaleIntro status={this.state.isOpen}/>
                   <br/>
-                  <CountdownClock deadline = {new Date("Dec 10, 2020 23:59:59")} status = {this.state.isOpen}/>
+                  <CountdownClock deadline = {new Date(Date.UTC(2020, 11, 15, 23, 59,59))} status = {this.state.isOpen}/>
                   <br/>
                   <ProgressBar max={490} ethRaised={this.decimal(this.state.weiRaised)} bogRaised={this.decimal(this.state.bogRaised)}/>
                   <br/>
