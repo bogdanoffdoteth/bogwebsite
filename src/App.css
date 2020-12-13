@@ -514,3 +514,8 @@ input[type=range]:focus::-ms-fill-upper {
   margin:0 auto;
 
 }
+
+#projectText{
+  margin-left:1rem;
+  margin-right:1rem;
+}
