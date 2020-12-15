@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import bogdanoff_eth_dp from "./assets/Bogdanoff.eth_DP.png";
-import tormented_squidward_dp from "./assets/Tormented_Squidward_DP.png";
+import chadwick_greenbarr_dp from "./assets/Chadwick_Greenbarr_DP.png";
 import cream_eth_dp from "./assets/Cream.eth_DP.png";
 
 class TeamDiv extends Component{
@@ -20,7 +20,7 @@ class Team extends Component{
   render(){
     const TeamList = [
       {img:bogdanoff_eth_dp ,name:"bogdanoff.eth", role:"founder/developer"},
-      {img:tormented_squidward_dp,name:"Tormented Squidward", role:"community manager"},
+      {img:chadwick_greenbarr_dp,name:"Chadwick Greenbarr", role:"community manager"},
       {img:cream_eth_dp,name:"Cream.eth", role: "marketing manager"}
     ];
     return(
