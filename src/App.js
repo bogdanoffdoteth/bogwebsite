@@ -17,7 +17,6 @@ function App() {
       <Navbar/>
       <Switch>
         <Route exact path="/" component={LandingPage}/>
-        <Route path="/crowdsale" component={Crowdsale}/>
         <Route path="/weekly-bounty" component={WeeklyBounty}/>
       </Switch>
       <Footer/>

@@ -20,7 +20,6 @@ class Navbar extends Component{
       <nav id="navbar" className="navBar rm-text-shadow">
         <ul>
           <li><NavLink exact to="/">Home</NavLink></li>
-          <li><NavLink to="/crowdsale">Crowdsale</NavLink></li>
           <li><NavLink to="/weekly-bounty">Weekly Bounty</NavLink></li>
         </ul>
       </nav>
